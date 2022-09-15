@@ -6,6 +6,14 @@
 ```
 ### Install dependencies
 $ npm install
+
+pod install
+```
+### for ios
+
+```
+cd ios
+pod install
 ```
 # IMPORTANT 
 
@@ -23,6 +31,7 @@ For example
 ### running application
 ```
 $ npx react-native run-android
+$ npx react-native run-ios
 ```
 
 ####  Features
