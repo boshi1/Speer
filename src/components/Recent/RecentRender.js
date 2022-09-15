@@ -17,7 +17,7 @@ let {login,avatar_url} = data
 
 const styles = StyleSheet.create({
   container: {
-padding: scaledSize(4),height: scaledSize(35),marginTop:10,borderBottomWidth: scaledSize(1),borderStyle:'dashed',borderBottomColor: '#25282b',justifyContent: 'center',width: '100%'
+padding: scaledSize(4),height: scaledSize(35),marginTop:10,borderBottomWidth: scaledSize(1),borderStyle:'solid',borderBottomColor: '#25282b',justifyContent: 'center',width: '100%'
   },
   Title:{
     color:Colors.Darkwhite, fontFamily:FontsNames.Light,fontSize:scaledSize(14),letterSpacing:0.5

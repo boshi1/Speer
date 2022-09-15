@@ -36,7 +36,7 @@ if(login === undefined){
 
 const styles = StyleSheet.create({
   container: {
-    padding: scaledSize(4),width:windowWidth,flexDirection:'row',height: scaledSize(65),marginTop:scaledSize(10),borderBottomWidth: scaledSize(1),borderStyle:'dashed',borderBottomColor:Colors.lightgray ,justifyContent: 'center'
+    padding: scaledSize(4),width:windowWidth,flexDirection:'row',height: scaledSize(65),marginTop:scaledSize(10),borderBottomWidth: scaledSize(1),borderStyle:'solid',borderBottomColor:Colors.lightgray ,justifyContent: 'center'
   },
 ImageContaienr:{justifyContent:'center',alignContent:'center',width:scaledSize(50)},
 Image:{width:scaledSize(40),borderRadius:scaledSize(20),resizeMode:"contain",height:scaledSize(40)},
