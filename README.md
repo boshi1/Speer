@@ -6,8 +6,6 @@
 ```
 ### Install dependencies
 $ npm install
-
-pod install
 ```
 ### for ios
 
