@@ -3,15 +3,25 @@
 =================
 ### Took around 12 hours to make
 
-## Installing
-
-
 ```
 ### Install dependencies
 $ npm install
 ```
-```
+# IMPORTANT 
+
+
+please make sure to have a path for android sdk if not 
+then go to
+```/android```
+create  ```local.properties``` file
+and put the path for android sdk  like
+
+```sdk.dir=your android sdk path```
+For example 
+```sdk.dir=/***/****/Library/Android/sdk```
+
 ### running application
+```
 $ npx react-native run-android
 ```
 
