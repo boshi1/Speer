@@ -1,4 +1,4 @@
-# Speer# Speer
+# Speer
 
 =================
 ### Took around 12 hours to make
