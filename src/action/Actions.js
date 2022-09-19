@@ -4,7 +4,7 @@ import {
   SetError
 } from '../reducer/AppReducers';
 const fetchApi = 'https://api.github.com/users/'
-const Token = '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'
+const Token = 'your github token is here'
 export const GetProfile = (EndPoint,Profile) => {
 
   return async (dispatch) => {
