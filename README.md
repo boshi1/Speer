@@ -26,6 +26,7 @@ and put the path for android sdk  like
 For example 
 ```sdk.dir=/***/****/Library/Android/sdk```
 
+### add your github access token in ```Speer/src/action/Actions.js```
 ### running application
 ```
 $ npx react-native run-android
