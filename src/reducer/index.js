@@ -3,11 +3,11 @@ import AppReducers from './AppReducers';
 const initialState = null;
 
 const appReducers = combineReducers({
-    AppReducers
+  AppReducers,
 });
 
 const rootReducer = (state = initialState, action) => {
-    return appReducers(state, action);
+  return appReducers(state, action);
 };
 
 export default rootReducer;

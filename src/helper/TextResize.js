@@ -1,5 +1,5 @@
-import {Dimensions} from 'react-native'
-const { width, height } = Dimensions.get('window');
+import {Dimensions} from 'react-native';
+const {width, height} = Dimensions.get('window');
 
 //XIAOMI MI 10 as base size
 //Make Dimensions responsive
@@ -10,4 +10,4 @@ const scaleWidth = width / baseWidth;
 const scaleHeight = height / baseHeight;
 const scale = Math.min(scaleWidth, scaleHeight);
 
-export const scaledSize = (size) => Math.ceil((size * scale));
+export const scaledSize = size => Math.ceil(size * scale);

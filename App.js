@@ -18,15 +18,12 @@ const composeEnhancers = global.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const enhancer = composeEnhancers(applyMiddleware(...middleware));
 const store = createStore(reducer, {}, enhancer);
 
-
-export default function AppContainer(){
-  return (<Provider store={store}>
-
-<Navigation/>
-
+export default function AppContainer() {
+  return (
+    <Provider store={store}>
+      <Navigation />
     </Provider>
-    )
+  );
 }
 
-const styles = StyleSheet.create({
-});
+const styles = StyleSheet.create({});
